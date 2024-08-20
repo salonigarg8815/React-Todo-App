@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand%3Awght%40300%3B400%3B500%3B600%3B700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+.main-div {
+    min-height: 100vh;
+    background: #ffdab9;
+    display: flex;
+    justify-content: center;
+}
+
+.child-div {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.addItems {
+    margin-top: 1.8rem;
+    position: relative;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+
+}
+
+.add-btn {
+    position: absolute;
+    left: 272px;
+    top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.add-btn:hover {
+    color: #034903;
+}
+
+.eachItem {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 18px;
+    background-color: rgb(247, 147, 180);
+}
+
+h4 {
+    color: rgb(68, 67, 67);
+}
+
+.eachItem:hover {
+    background-color: palevioletred;
+    transition: all 0s;
+}
+
+.delete-btn {
+    color: rgba(250, 10, 10, 0.733);
+    cursor: pointer;
+}
+
+.clear-btn {
+    margin-top: 20px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    width: 42%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+.edit-btn {
+    color: green;
+    cursor: pointer;
+    padding-right: 14px;
+}
+
+.update-btn {
+    color: green;
+}
